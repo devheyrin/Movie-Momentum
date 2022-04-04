@@ -1,0 +1,116 @@
+.hidden {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: black;
+}
+
+button {
+    all: unset;
+}
+
+
+#login-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+/* #login-form input {
+    margin: 0.3rem;
+    width: 20rem;
+} */
+
+#login-form input[type="text"] {
+    text-align: center;
+    padding: 0.7rem;
+    font-size: 1rem;
+    margin: 0.6rem;
+    width: 20rem;
+    color: whitesmoke;;
+    outline: none;
+    border: 0 solid whitesmoke;
+    background-color: rgba(244, 243, 252, 0);
+    border-bottom: 1px solid whitesmoke;
+}
+
+#login-form input[type="submit"] {
+    color: whitesmoke;
+    margin-top: 1rem;
+    border: 1px solid whitesmoke ;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 1rem;
+    background-color: rgba(244, 243, 252, 20%);
+}
+
+input::placeholder {
+    color: rgba(252, 251, 255, 0.872);
+}
+
+#movie-list li:hover {
+    background-color: gray;
+}
+
+
+#todo-form input{
+    color: whitesmoke;
+    font-size: 1rem;
+    outline: none;
+    border: 0 solid whitesmoke;
+    background-color: rgba(244, 243, 252, 0);
+    border-bottom: 1px solid whitesmoke;
+}
+
+#todo-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#quote span {
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#weather {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+#weather span {
+    display: block;
+    text-align: right;
+    font-size: 1.3rem;
+}
+
+#todo-list button, #todo-list span {
+    padding: 0.2rem;
+} 
+
+#quote {
+    padding: 2rem 4rem;
+}
+
+
